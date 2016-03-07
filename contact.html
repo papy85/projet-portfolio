@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+<!--RWD : balise pour definir le viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Fabien Brossard - Designer Graphique - En savoir +</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="page">
+		<header>
+			<a href="index.html">
+				<h1 class="header"><img src="image/logo-mini.png" alt=""></h1>
+            </a>
+				<p class="header">Designer Graphique</p>
+			
+		</header>
+		<div class="conteneur">
+            <div class="logohead">
+                <h2><img src="image/savoir.png" alt="en savoir plus"></h2>
+            </div>
+            <div class="aligne download">
+                <p><a href="image/fabien_brossard_cv.pdf" target="_blank">télécharger mon CV</a></p>
+            </div>
+            <div class="aligne formulaire">
+               
+<!--               action="http://fcfr.nettz.de/Formular-Chef.cgi"-->
+                
+                <form action="contact.php" method="post" id="formulaire" name="formulaire" autocomplete="on">
+                    <div  class="couleurform">
+                	    <p>Demande de contact</p>
+                	</div>
+<!--                    <p><input type="hidden" name="destinataire" value="fabien.brossard@live.fr"></p>-->
+					<p>
+                    <p class="name">
+                        <label for="prenom">prénom</label>
+                        <input type="text" id="prenom" name="prenom" class="formligne textcase">
+                    </p>
+                    <p class="name">
+                        <label for="nom">nom</label>
+                        <input type="text" id="nom" name="nom" class="formligne textcase">
+                    </p>
+                    <p class="email">
+                        <label for="expediteur">e-mail</label>
+                        <input type="email" id="email" name="email" class="formligne email textcase">
+                    </p>
+                    <p class="message"><label for="message">Message</label>
+                        <textarea name="message" id="message" class="textcase" placeholder="votre message ici !">
+
+                        </textarea>
+                    </p>
+                    <div id="bouton">
+                        <input class="bouton" type="reset" value="Effacer" />	
+
+                <!--bouton pour envoyer-->
+                        <input class="bouton" type="submit" value="Envoyer" />
+
+                <!-- <button> permet d'utiliser n'importe quel contenu HTML comme étiquette.
+                        input produit un boutton -->
+                        </div>
+<!--                        <input type="hidden" name="model_pageresponse" value="www.fabienbrossard.fr/reponse.html">-->
+                </form>
+                
+            </div><!-- formulaire -->
+            <div class="reseaux">
+                    <ul class="liste-en-ligne">
+                        <li><a href=""><img src="image/reseaux/fb.png" alt=""></a></li>
+                        <li><a href=""><img src="image/reseaux/googleplus2.png" alt=""></a></li>
+                        <li><a href=""><img src="image/reseaux/LinkedIn.png" alt=""></a></li>
+                        <li><a href=""><img src="image/reseaux/viadeo.png" alt=""></a></li>
+                    </ul>
+					
+					
+					
+					
+                </div><!-- reseaux -->
+		</div><!-- conteneur -->
+		<footer>
+			<p><a href="contact.html">Fabien Brossard</a> - copyright - 2016 ©</p>
+		</footer>
+	</div><!--page-->
+</body>
+</html>
