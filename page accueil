@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+<!--RWD : balise pour definir le viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Fabien Brossard - Designer Graphique</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="logo">
+		<img src="image/logo-norm.png" alt="logo version noire">
+	</div>
+		
+	<div class="page">
+		<header>
+			<a href="index.html">
+				<h1 class="header"><img src="image/logo-mini.png" alt="mini logo fabien brossard pour le header"></h1>
+            </a>
+				<p class="header">Designer Graphique</p>
+			
+		</header>
+		
+		<div class="conteneur">
+		    <div class="btn">
+		        <a href="apropos.html"><img class="btn-img avant" src="image/boutons/btn-enavant2.png" alt="bouton menu en avant pour la catégorie à propos"></a>
+		    </div>
+		    <div class="btn">
+		        <a href="gallerie.php"><img class="btn-img deamb" src="image/boutons/btn-deambulation2.png" alt="bouton menu déambulation pour la gallerie"></a>
+		    </div>
+		    <div class="btn">
+		        <a href="contact.html"><img class="btn-img savoir" src="image/boutons/btn-savoir2.png" srcset="image/boutons/btn-savoir2.png 400w, image/boutons/btn-savoir-medium.png 640w" alt="bouton en savoir plus pour la page de contact"></a>
+		    </div>
+		</div>
+		<div class="logo-v500px">
+			<img src="image/logo-norm.png" alt="">
+		</div>
+		<footer>
+			<p><a href="contact.html">Fabien Brossard</a> - copyright - 2016 ©</p>
+		</footer>
+	</div><!--page-->
+
+<!--============================JAVASCRIPT=============================-->
+<!------------------------------Importer jquery-------------------------->
+		<script src="js/jquery-1.12.0.min.js"></script>
+<!-------------------------------mon code JS----------------------------->
+		<script src="js/style.js"></script>
+</body>
+</html>
